@@ -87,12 +87,14 @@ export default {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+  margin-top: 20px;
   #video {
     width: 800px;
     height: 450px;
     background: #ddd;
   }
   @media (max-width: 800px) {
+    margin-top: 0;
     #video {
       width: 100vw;
       height: 56.25vw;

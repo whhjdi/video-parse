@@ -32,14 +32,8 @@
           </div>
         </Poptip>
       </transition>
+
       <div class="weather">
-        <Button
-          to="//whhjdi.github.io/nav-demo/"
-          target="_blank"
-          type="text"
-          class="other"
-          >键盘导航</Button
-        >
         <Poptip
           title="本地天气"
           content="点击可以获取天气哦"
@@ -109,7 +103,7 @@ export default {
       Axios.get("https://search.heweather.net/find", {
         params: {
           location: this.query,
-          key: "请输入你的key",
+          key: "你的key",
           number: 20
         }
       }).then(res => {
@@ -122,7 +116,7 @@ export default {
       Axios.get("https://free-api.heweather.net/s6/weather", {
         params: {
           location: location,
-          key: "请输入你的key"
+          key: "你的key"
         }
       }).then(res => {
         this.weather = res.data.HeWeather6[0].now;
@@ -163,7 +157,6 @@ export default {
   height: 60px;
   background: #fff;
   box-shadow: 0 2px 10px 1px #ddd;
-  margin-bottom: 20px;
   .right {
     display: flex;
     justify-content: center;
@@ -171,8 +164,6 @@ export default {
     .select-wrapper {
       margin-right: 10px;
       position: relative;
-      .search {
-      }
       &.showinput-enter-active,
       &.showinput-leave-active {
         opacity: 1;

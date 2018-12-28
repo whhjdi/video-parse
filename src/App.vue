@@ -2,14 +2,15 @@
   <div id="app">
     <top-bar></top-bar>
     <keep-alive> <router-view /> </keep-alive>
-    <footer></footer>
+    <the-footer></the-footer>
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import TopBar from "@/components/TopBar";
+import TheFooter from "@/components/TheFooter";
 export default {
-  components: { TopBar }
+  components: { TopBar, TheFooter }
 };
 </script>
 <style lang="scss">
