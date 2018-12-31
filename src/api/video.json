@@ -1,0 +1,77 @@
+{
+  "platformlist": [{
+      "name": "爱奇艺",
+      "url": "https://www.iqiyi.com/"
+    },
+    {
+      "name": "腾讯视频",
+      "url": "https://v.qq.com/"
+    },
+    {
+      "name": "芒果",
+      "url": "https://www.mgtv.com/"
+    },
+    {
+      "name": "优酷",
+      "url": "https://www.youku.com/"
+    },
+    {
+      "name": "搜狐视频",
+      "url": "https://tv.sohu.com/"
+    },
+    {
+      "name": "乐视视频",
+      "url": "https://www.le.com/"
+    }
+  ],
+  "list": [
+    {
+      "name": "接口1（推荐）",
+      "url": "https://cdn.yangju.vip/k/?url="
+    },
+    {
+      "name": "接口2",
+      "url": "https://api.bbbbbb.me/jx/?url="
+    },
+    {
+      "name": "接口3",
+      "url": "https://vip.hackmg.com/jx/index.php?url="
+    },
+    {
+      "name": "无名小站",
+      "url": "http://www.82190555.com/index/qqvod.php?url="
+    },
+    {
+      "name": "超清接口2",
+      "url": "http://jiexi.92fz.cn/player/vip.php?url="
+    },
+    {
+      "name": "线路五",
+      "url": "http://aikan-tv.com/?url="
+    },
+    {
+      "name": "百域阁视频",
+      "url": "http://api.baiyug.cn/vip/index.php?url="
+    },
+    {
+      "name": "表哥解析",
+      "url": "http://jx.biaoge.tv/index.php?url="
+    },
+    {
+      "name": "腾讯可用，线路三(云解析)",
+      "url": "http://jiexi.92fz.cn/player/vip.php?url="
+    },
+    {
+      "name": "腾讯可用，金桥解析",
+      "url": "http://jqaaa.com/jx.php?url="
+    },
+    {
+      "name": "速度牛",
+      "url": "http://api.wlzhan.com/sudu/?url="
+    },
+    {
+      "name": "万能接口6",
+      "url": "http://wwwhe1.177kdy.cn/4.php?pass=1&url="
+    }
+  ]
+}

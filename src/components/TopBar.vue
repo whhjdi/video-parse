@@ -103,7 +103,7 @@ export default {
       Axios.get("https://search.heweather.net/find", {
         params: {
           location: this.query,
-          key: "你的key",
+          key: "",
           number: 20
         }
       }).then(res => {
@@ -116,7 +116,7 @@ export default {
       Axios.get("https://free-api.heweather.net/s6/weather", {
         params: {
           location: location,
-          key: "你的key"
+          key: ""
         }
       }).then(res => {
         this.weather = res.data.HeWeather6[0].now;
