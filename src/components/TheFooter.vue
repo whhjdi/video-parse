@@ -3,7 +3,7 @@
     <div class="copy-right">
       <Alert type="error">
         <span slot="desc" class="desc">
-          ©2018，本站不提供解析服务，接口源于互联网，仅供学习交流，请勿用于商业，后果自负！
+          ©2019，本站不提供解析服务，接口源于互联网，仅供学习交流，请勿用于商业，后果自负！
         </span>
       </Alert>
     </div>
